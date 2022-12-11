@@ -1,0 +1,151 @@
+.backgroundText1 {
+    color: white;
+    position: absolute;
+    top: 22.5%;
+    font-weight: bold;
+    line-height: 11vw;
+    z-index: 0;
+    transform: rotateZ(-90deg);
+    font-size: 14vw;
+    left: -13vw;
+}
+
+
+.cardy {
+    /* height: 14vh; */
+    background-color: rgb(255, 114, 94);
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-bottom: 1vh;
+    padding: 2vh;
+    width: 80vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all .2s ease-in-out;
+}
+
+.cardy:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.textPart {
+    margin-left: 5vw;
+}
+
+
+.bulletRegion h3 {
+    color: white;
+    font-size: 3.7vw;
+    font-family: font4;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.bulletRegion p {
+    color: white;
+    font-size: 2.4vw;
+    font-family: 'font3';
+}
+
+:root {
+    --color-primary: #f6aca2;
+    --color-secondary: #f49b90;
+    --color-tertiary: #f28b7d;
+    --color-quaternary: #f07a6a;
+    --color-quinary: #ee6352;
+    /*
+    --color-primary: #5192ED;
+    --color-secondary: #69A1F0;
+    --color-tertiary: #7EAEF2;
+    --color-quaternary: #90BAF5;
+    --color-quinary: #A2C4F5;
+    */
+}
+
+.solidAbove {
+    text-shadow: 0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+}
+
+/* mobile screens */
+
+
+/* smaller laptops */
+@media only screen and (min-width: 768px) {
+
+    .backgroundText1 {
+        font-size: 10vw;
+        line-height: 8vw;
+        left: -16vw;
+        top: 39%;
+    }
+
+    .bulletRegion {
+        /* flex: 4; */
+        /* border: 1px solid black; */
+        /* height: 100vh;		 */
+        padding-top: 5vh;
+        text-align: left;
+        padding-left: 15vw;
+    }
+
+    .cardy {
+
+        margin-bottom: 3vh;
+        height: 16vh;
+        width: 35vw;
+    }
+
+    .bulletRegion h3 {
+        font-size: 1.7vw;
+    }
+
+    .bulletRegion p {
+        font-size: 1.2vw;
+    }
+}
+
+/* Laptop media queries */
+@media only screen and (min-width: 1200px) {
+
+    /* .backgroundText1 {
+        position: absolute;
+        top: 39%;
+        transform: rotateZ(-90deg);
+        left: -16vw;
+    } */
+
+    .bulletRegion {
+        /* flex: 4; */
+        /* border: 1px solid black; */
+        /* height: 100vh;		 */
+        padding-top: 5vh;
+        text-align: left;
+        padding-left: 15vw;
+    }
+
+    .cardy {
+
+        margin-bottom: 3vh;
+        height: 16vh;
+        width: 35vw;
+    }
+
+    .bulletRegion h3 {
+        font-size: 1.7vw;
+    }
+
+    .bulletRegion p {
+        font-size: 1.2vw;
+    }
+}

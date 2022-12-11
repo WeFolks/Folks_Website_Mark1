@@ -1,0 +1,201 @@
+/* Style for our header texts
+        * --------------------------------------- */
+h1 {
+    font-size: 28vw;
+    font-family: font9;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered texts in each section
+        * --------------------------------------- */
+.section {
+    text-align: center;
+    overflow: hidden;
+}
+
+div.fp-watermark {
+    display: none;
+}
+
+body {
+    width: 100vw;
+}
+
+#fullpage {
+    width: 100vw;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black;
+
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;
+    /*cover video background */
+    z-index: 3;
+}
+
+
+
+/* Layer with position absolute in order to have it over the video
+        * --------------------------------------- */
+#section0 .layer {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    left: 0;
+    top: 38%;
+
+    /*
+            * Preventing flicker on some browsers
+            * See http://stackoverflow.com/a/36671466/1081396  or issue #183
+            */
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/*solves problem with overflowing video in Mac with Chrome */
+#section0 {
+    overflow: hidden;
+}
+
+
+/* Bottom menu
+        * --------------------------------------- */
+#infoMenu li a {
+    color: #fff;
+}
+
+
+/* Hiding video controls
+        * See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
+        * --------------------------------------- */
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+/* 3d block css */
+
+body {
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    min-height: 600px;
+}
+
+#top {
+    position: absolute;
+    top: 25%;
+    padding-bottom: 20px;
+    border-bottom-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana;
+    font-size: 2em;
+    color: #f0f0f0;
+}
+
+h4 {
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    color: #f0f0f0
+}
+
+h4 i {
+    margin-right: 5px;
+}
+
+#outPage {
+    position: absolute;
+    perspective: 400px;
+    top: 18vh;
+    left: 22vw;
+}
+
+#boxy * {
+    width: 150px;
+    height: 150px;
+    backface-visibility: visible;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#boxy {
+    scale: 2;
+    margin-top: 200px;
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: RotateY(-15deg)
+}
+
+.face2 {
+    transform: translateZ(-150px);
+}
+
+.face3 {
+    transform: rotateX(90deg) translateZ(75px) translateY(-75px);
+}
+
+.face4 {
+    transform: rotateX(90deg) translateZ(-75px) translateY(-75px);
+}
+
+.face5 {
+    transform: rotateY(90deg) translateZ(-75px) translateX(75px);
+}
+
+.face6 {
+    transform: rotateY(90deg) translateZ(75px) translateX(75px);
+}
+
+.color1 {
+    background: linear-gradient(#ffffff, #f0f0f0, #eaeaea);
+    opacity: 0.8;
+}
+
+.color2 {
+    background: linear-gradient(#dbdbdb, #d2d2d2, #cecece);
+    opacity: 0.8;
+}
+
+.color3 {
+    background: linear-gradient(#d0d0d0, #c7c7c7, #c2c2c2);
+    opacity: 0.8;
+}
+
+/* mobile screens */
+
+
+/* smaller laptops */
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 9em;
+    }
+}
+
+/* Laptop media queries */
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 9em;
+
+    }
+}
