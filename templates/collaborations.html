@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Active Slide - fullPage.js</title>
+    <meta name="author" content="Matthew Howell" />
+    <meta name="description" content="fullPage continuous scrolling demo." />
+    <meta name="keywords" content="fullpage,jquery,demo,scroll,loop,continuous" />
+    <meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" type="text/css" href="../static/css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css" />
+
+</head>
+
+<body>
+
+    <ul id="menu">
+        <div data-menuanchor="firstPage" class="active" style="display: inline;">
+            <a href="../index.html">
+                <img src="../static/media/logo.png" alt="logo">
+                <div class="logo_name">Folks</div>
+            </a>
+        </div>
+        <li data-menuanchor="secondPage" class="addToWaitlist"><a href="#secondPage" id="addWait">Get App</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Contact Us</a></li>
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Collaborations</a></li>
+        <li data-menuanchor="3rdPage"><a href="../index.html">Home</a></li>
+    </ul>
+
+    <div id="fullpage">
+
+        <div class="section" id="section2">
+            <h1>Collaborations</h1>
+        </div>
+        <div class="section" id="section3">
+            <h1>About us+Contact Us+getapp
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../static/js/fullpage.js"></script>
+    <script type="text/javascript" src="../static/js/examples.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', 'purple', '#ccddff'],
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', 'lastPage'],
+            menu: '#menu',
+            slidesNavigation: true,
+            lazyLoad: true,
+            credits: { enabled: false }
+        });
+    </script>
+
+</body>
+
+</html>
