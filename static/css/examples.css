@@ -506,6 +506,7 @@ h1 {
 	transform: rotateZ(-90deg);
 	font-size: 14vw;
 	left: -12vw;
+	pointer-events: none;
 }
 
 .abc {
@@ -793,6 +794,7 @@ body {
 
 .card__face img {
 	height: 35vh;
+	pointer-events: none;
 }
 
 .card__face--front {
@@ -814,6 +816,7 @@ body {
 	position: absolute;
 	bottom: 0;
 	left: 6vw;
+	pointer-events: none;
 }
 
 /* smaller laptops */
