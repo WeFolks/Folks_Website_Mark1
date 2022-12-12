@@ -565,8 +565,8 @@ h1 {
 
 .innerBulllet {
 	width: 30vw;
-	position: absolute;
-	bottom: 50vh;
+	position: relative;
+	top: -2vh;
 }
 
 body {
@@ -612,7 +612,7 @@ body {
 	/* height: 200px; */
 	position: relative;
 	top: -39vh;
-	left: 28vw;
+	left: -1vw;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
 }
@@ -822,7 +822,9 @@ body {
 /* smaller laptops */
 @media only screen and (min-width: 768px) {
 	.innerBulllet {
-		bottom: 0;
+		/* bottom: 0; */
+		position: absolute;
+		top: auto;
 	}
 
 	.inContainer img {
@@ -915,6 +917,7 @@ body {
 		width: 15vw;
 		height: 200px;
 		top: 0;
+		left: 28vw;
 	}
 
 	#cube {
