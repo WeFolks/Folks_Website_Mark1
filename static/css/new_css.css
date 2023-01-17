@@ -1,0 +1,112 @@
+.rightCard {
+    position: relative;
+    top: 10vh;
+    height: 30vh;
+}
+
+.r_card {
+    height: 62vh;
+}
+
+.leftCard {
+    margin-top: 3vh;
+}
+
+.getAppForm {
+    flex-direction: column;
+}
+
+#gog_play {
+    width: 30vw;
+    top: 0vw;
+    position: relative;
+    left: -5vw;
+}
+
+#gog_play1 {
+    position: relative;
+    top: -8vh;
+}
+
+#qrCode {
+    width: 30vw;
+    position: relative;
+    left: 8vw;
+    top: 0vw;
+}
+
+#qrCode1 {
+    width: 60vw;
+    position: relative;
+    top: -15vh;
+}
+
+/* smaller laptops */
+@media only screen and (min-width: 768px) {
+    .r_card {
+        height: 0;
+        position: relative;
+        top: 6vw;
+    }
+
+    .rightCard {
+        display: flex;
+        width: 26vw;
+        flex-direction: column;
+        top: 0;
+    }
+
+    .leftCard {
+        margin-top: 0;
+    }
+
+    .getAppForm {
+        flex-direction: row;
+    }
+
+    #gog_play {
+        width: 15vw;
+        top: -7vw;
+        position: relative;
+        left: 0;
+    }
+
+    #qrCode {
+        width: 10vw;
+        position: relative;
+        left: 8vw;
+        top: -10vw;
+    }
+
+    #gog_play1 {
+        width: 20vw;
+        position: relative;
+        top: -10vh;
+    }
+
+    #qrCode1 {
+        width: 15vw;
+        position: relative;
+        left: 3vw;
+        top: -8vw;
+    }
+
+}
+
+/* Laptop media queries */
+@media only screen and (min-width: 900px) {
+
+    #gog_play1 {
+        width: 15vw;
+        position: relative;
+        top: -10vh;
+    }
+
+    #qrCode1 {
+        width: 10vw;
+        position: relative;
+        left: 3vw;
+        top: -8vw;
+    }
+
+}
