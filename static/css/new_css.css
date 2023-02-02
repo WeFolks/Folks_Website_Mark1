@@ -4,6 +4,11 @@
     height: 30vh;
 }
 
+.newLink {
+    position: relative;
+    top: -2vh;
+}
+
 .r_card {
     height: 62vh;
 }

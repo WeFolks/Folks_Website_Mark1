@@ -60,6 +60,7 @@
 
 .linky embed {
     height: 20px;
+    z-index: 10;
     top: -1vh;
     margin: 1vh;
     position: relative;
