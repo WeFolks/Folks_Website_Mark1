@@ -763,7 +763,6 @@ body {
 .avatar {
 	box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
 	transform: translatey(0px);
-	animation: float 3s ease-in-out infinite;
 }
 
 /* card flipping */
@@ -771,6 +770,7 @@ body {
 	top: 11vh;
 	left: 40vw;
 	position: absolute;
+	z-index: 10;
 }
 
 .imagy {
