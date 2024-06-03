@@ -2,47 +2,47 @@
 
 @font-face {
 	font-family: font1;
-	src: url(https://folks-website.s3.ap-south-1.amazonaws.com/static/font/static/RobotoSlab-Thin.ttf);
+	src: url(../font/static/RobotoSlab-Thin.ttf);
 }
 
 @font-face {
 	font-family: font2;
-	src: url(https://folks-website.s3.ap-south-1.amazonaws.com/static/font/static/RobotoSlab-ExtraLight.ttf);
+	src: url(../font/static/RobotoSlab-ExtraLight.ttf);
 }
 
 @font-face {
 	font-family: font3;
-	src: url(https://folks-website.s3.ap-south-1.amazonaws.com/static/font/static/RobotoSlab-Light.ttf);
+	src: url(../font/static/RobotoSlab-Light.ttf);
 }
 
 @font-face {
 	font-family: font4;
-	src: url(https://folks-website.s3.ap-south-1.amazonaws.com/static/font/static/RobotoSlab-Regular.ttf);
+	src: url(../font/static/RobotoSlab-Regular.ttf);
 }
 
 @font-face {
 	font-family: font5;
-	src: url(https://folks-website.s3.ap-south-1.amazonaws.com/static/font/static/RobotoSlab-Medium.ttf);
+	src: url(../font/static/RobotoSlab-Medium.ttf);
 }
 
 @font-face {
 	font-family: font6;
-	src: url(https://folks-website.s3.ap-south-1.amazonaws.com/static/font/static/RobotoSlab-SemiBold.ttf);
+	src: url(../font/static/RobotoSlab-SemiBold.ttf);
 }
 
 @font-face {
 	font-family: font7;
-	src: url(https://folks-website.s3.ap-south-1.amazonaws.com/static/font/static/RobotoSlab-Bold.ttf);
+	src: url(../font/static/RobotoSlab-Bold.ttf);
 }
 
 @font-face {
 	font-family: font8;
-	src: url(https://folks-website.s3.ap-south-1.amazonaws.com/static/font/static/RobotoSlab-ExtraBold.ttf);
+	src: url(../font/static/RobotoSlab-ExtraBold.ttf);
 }
 
 @font-face {
 	font-family: font9;
-	src: url(https://folks-website.s3.ap-south-1.amazonaws.com/static/font/static/RobotoSlab-Black.ttf);
+	src: url(../font/static/RobotoSlab-Black.ttf);
 }
 
 /* Reset CSS
